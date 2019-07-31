@@ -1,4 +1,3 @@
-target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -9,11 +8,22 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 
-.classpath/
+# Eclipse
+.classpath
+.project
+.settings/
 
-.project/
+# Intellij
+.idea/
+*.iml
+*.iws
 
-.setting/
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
 
 # Compiled class file
 *.class
