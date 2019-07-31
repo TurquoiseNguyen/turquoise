@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS app_user CASCADE;
 CREATE TABLE jp_users(
-	id BIGINT(20) not null PRIMARY KEY,
+	id BIGINT(20) NOT NULL PRIMARY KEY,
 	user_login VARCHAR(60),
 	user_pass VARCHAR(64),
 	user_nicename VARCHAR(50),
@@ -8,7 +8,7 @@ CREATE TABLE jp_users(
 	user_url VARCHAR(100),
 	user_registered TIMESTAMP,
 	user_activation_key VARCHAR(60),
-	user_status integer(11),
+	user_status SMALLINT,
 	display_name VARCHAR(250)
 );
 
