@@ -20,12 +20,8 @@ TODO: Write usage instructions
 
 ## History
 
-TODO: Write history
+Version 1.0
 
 ## Credits
 
-TODO: Write credits
-
-## License
-
-TODO: Write license
+Developer - Turquoise Nguyen
