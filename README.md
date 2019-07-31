@@ -1,5 +1,4 @@
-# Project Name
-
+# Turquoise
 TODO: Write a project description
 
 ## Installation
