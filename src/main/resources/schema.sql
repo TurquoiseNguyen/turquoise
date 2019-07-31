@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS app_user CASCADE;
+DROP TABLE IF EXISTS jp_users CASCADE;
 CREATE TABLE jp_users(
 	id BIGINT not null PRIMARY KEY,
 	user_login VARCHAR(60),
