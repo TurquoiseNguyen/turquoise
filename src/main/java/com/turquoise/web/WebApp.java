@@ -1,11 +1,13 @@
-package web;
+package com.turquoise.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class WebApp {
+    
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(WebApp.class, args);
     }
+    
 }
