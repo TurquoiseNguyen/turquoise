@@ -12,8 +12,19 @@ CREATE TABLE jp_users(
 	display_name VARCHAR(250)
 );
 
-CREATE UNIQUE INDEX user_login ON jp_users(user_login);
+CREATE INDEX user_login ON jp_users(user_login);
 
-CREATE UNIQUE INDEX user_nicename ON jp_users(user_nicename);
+CREATE INDEX user_nicename ON jp_users(user_nicename);
 
+DROP TABLE IF EXISTS jp_usermeta CASCADE;
+CREATE TABLE jp_usermeta(
+	umeta_id BIGINT not null PRIMARY KEY,
+	user_id BIGINT not null REFERENCES jp_users(id),
+	meta_key VARCHAR(255),
+	meta_type TEXT
+);
+
+CREATE INDEX user_id ON jp_usermeta(user_id);
+
+CREATE INDEX meta_key ON jp_usermeta(meta_key);
 
