@@ -9,11 +9,11 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 
-.classpath
+.classpath/
 
-.project
+.project/
 
-.setting
+.setting/
 
 # Compiled class file
 *.class
