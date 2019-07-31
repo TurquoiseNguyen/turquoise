@@ -6,9 +6,9 @@ CREATE TABLE jp_users(
 	user_nicename VARCHAR(50),
 	user_email VARCHAR(100),
 	user_url VARCHAR(100),
-	user_registered TIME,
+	user_registered TIMESTAMP,
 	user_activation_key VARCHAR(60),
-	user_status INT(11),
+	user_status integer(11),
 	display_name VARCHAR(250)
 );
 
