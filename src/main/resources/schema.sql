@@ -8,7 +8,7 @@ CREATE TABLE jp_users(
 	user_url VARCHAR(100),
 	user_registered TIME,
 	user_activation_key VARCHAR(60),
-	user_status TINYINT,
+	user_status INTEGER,
 	display_name VARCHAR(250)
 );
 
